@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Nike Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="contact-header">
+        <h1>Contact Us</h1>
+        <p>We're here to help and answer any questions you might have. We look forward to hearing from you!</p>
+    </header>
+
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p><strong>Customer Support Email:</strong> support@nikestore.com</p>
+                <p><strong>Phone:</strong> +1 123 456 7890</p>
+                <p><strong>Address:</strong> 123 Sneaker St, New York, NY 10001, USA</p>
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="./img/facebook.png" alt="Facebook" class="social-icon"></a>
+                    <a href="#"><img src="./img/twitter.png" alt="Twitter" class="social-icon"></a>
+                    <a href="#"><img src="./img/instagram.png" alt="Instagram" class="social-icon"></a>
+                </div>
+            </div>
+
+            <form class="contact-form" action="submit_form.php" method="post">
+                <h2>Send Us a Message</h2>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footerRightMenu">
+            <span class="copyright">© iiekezie Dev. All rights reserved. 2024.</span>
+        </div>
+    </footer>
+</body>
+</html>
